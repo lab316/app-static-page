@@ -1,0 +1,19 @@
+article {
+  padding: 0 16px;
+}
+
+article h1 {
+  font-size: 1.4em;
+}
+
+article h2 {
+  font-size: 1.2em;
+}
+
+article p {
+  font-size: 1em;
+}
+
+article li {
+  font-size: 1em;
+}

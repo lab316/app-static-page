@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>応募者の個人情報に関する取扱い方針</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <article>
+    <h1>応募者の個人情報に関する取扱い方針</h1>
+
+    <p><span id="company"></span>（以下，「当社」といいます。）は，応募者の個人情報を，以下の取扱い方針（以下,「本方針」といいます。）及び個人情報の管理について定める当社「プライバシーポリシー」に基づき，適切に管理・運用致します。当社求人へのご応募にあたっては,本方針及び「プライバシーポリシー」をよくお読みになり,これらへ同意して頂く必要があります。</p>
+
+    <h2>第1条（個人情報の利用目的）</h2>
+    <p>ご応募にあたってご提供頂いた個人情報は，以下の目的のためにのみ利用致します。</p>
+    <ol>
+    <li>採用選考時の判断</li>
+    <li>応募者の方へのご連絡</li>
+    <li>採用後の人事・労務業務における使用</li>
+    </ol>
+
+    <h2>第2条（書類・電子データの取扱い）</h2>
+    <ol>
+    <li>ご応募にあたってご提供頂いた書類は,採用又は不採用のいずれの場合であっても返却することはできません。</li>
+    <li>ご応募にあたってご提供頂いた書類ないし電子データは,当社にて適切に管理し,しかるべき時に破棄・消去（破棄等）致します。当社は,応募者に対し,当該書類ないし電子データの保管又は破棄等のいずれの義務も負わないものとします。</li>
+    </ol>
+
+    <h2>第3条（適用除外）</h2>
+    <p>当社求人へのご応募の体裁をとるものであっても,その内容がこれにあたらない場合,本方針の対象外となります。</p>
+
+    <h2>第4条（個人情報を提供いただけない場合の取扱い）</h2>
+    <p>当社が指定する個人情報をご提供いただけない場合，当社求人へご応募頂くことはできません。</p>
+
+    <h2>第5条（お問い合わせ）</h2>
+    <p>ご応募に関するお問い合わせは,次の当社担当までご連絡ください。</p>
+    <p>担当　<span id="contact"></span><br>
+    連絡先　<span id="address"></span></p>
+
+    <p>以上</p>
+  </article>
+
+  <script type="text/javascript">
+    const params = new URLSearchParams(window.location.search);
+    const company = params.get('company');
+    const contact = params.get('contact');
+    const address = params.get('address');
+    document.getElementById('company').innerHTML = company;
+    document.getElementById('company').innerHTML = company;
+    document.getElementById('address').innerHTML = address;
+  </script>
+</body>
+</html>
