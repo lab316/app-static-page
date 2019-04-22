@@ -96,7 +96,7 @@
     <h2>第10条（お問い合わせ窓口）</h2>
     <p>本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。</p>
     <p>住所： <span id="address"></span><br>
-    社名： <span id="company"></span><br>
+    社名： <span id="company2"></span><br>
     担当部署： <span id="department"></span><br>
     Eメールアドレス： <span id="email"></span></p>
 
@@ -111,6 +111,7 @@
     const email = params.get('email');
     document.getElementById('company').innerHTML = company;
     document.getElementById('address').innerHTML = address;
+    document.getElementById('company2').innerHTML = company;
     document.getElementById('department').innerHTML = department;
     document.getElementById('email').innerHTML = email;
   </script>
